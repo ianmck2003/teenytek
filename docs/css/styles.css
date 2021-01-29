@@ -22,7 +22,9 @@
   }
 
   html, body{
+    color: white;
     background: var(--black);
+    font-family: 'Roboto', sans-serif;
   }
 
   pre {
@@ -32,6 +34,14 @@
     margin: 0px 1rem;
     word-wrap: break-word;
     overflow: auto;
+  }
+
+  h1, h2, h3, h4 {
+    padding-top: 1rem;
+  }
+
+  p {
+    padding-top: .8rem;
   }
 
   .site-container {
@@ -119,7 +129,7 @@ navbar div.navigation ul li a {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: .6rem;
+  font-size: .5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -275,4 +285,27 @@ footer {
   .footer {
       border-radius: .4rem;
   }
+}
+
+.image-right {
+  background: grey;
+  float: right;
+  margin-left: 1rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.contact-content {
+  color: white;
+}
+
+.contact-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  color: var(--grey);
 }
