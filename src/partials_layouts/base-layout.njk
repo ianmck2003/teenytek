@@ -1,0 +1,18 @@
+  
+{% include "_head.njk" %}
+<div class="site-container">
+    <div class="container">
+
+        {% include "_navbar.njk" %}
+
+        {% include "_breadcrumbs.njk" %}
+        <div class="content">
+          {{ content | safe }}
+        </div>
+        <footer>
+          <p>2020  TeenyTek</p>
+        </footer>
+    </div>
+</div>
+
+{% include "_foot.njk" %}
