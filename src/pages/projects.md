@@ -11,5 +11,5 @@ cards:
     title: Self Watering Flower Pot
     url: /projects/self-watering-flower-pot/
     items:
-      - title: 
-        url: 
+      - title: Concept
+        url: /blog/self-watering-flower-pot-concept/
