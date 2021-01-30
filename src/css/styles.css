@@ -408,6 +408,7 @@ footer {
   text-align: center;
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
+  border-bottom: 1px solid var(--skyblue);
 }
 
 .project-index-container .project-cards {
