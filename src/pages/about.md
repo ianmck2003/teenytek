@@ -2,6 +2,10 @@
 title: About
 permalink: /about/
 layout: base-layout.njk
+breadcrumbs:
+  - label: Home
+    url: /
+  - label: About
 ---
 
 # About the Site
