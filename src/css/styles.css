@@ -289,15 +289,6 @@ footer {
   }
 }
 
-.image-right {
-  background: grey;
-  float: right;
-  margin-left: 1rem;
-}
-
-.content {
-  padding: 1rem;
-}
 
 .contact-content {
   color: white;
@@ -307,7 +298,7 @@ footer {
 }
 
 .contact-content a {
-  color: white;
+  color: lightgreen;
   text-decoration: none;
 }
 
@@ -447,7 +438,36 @@ footer {
 }
 
 .project-index-container .project-cards article ul a {
-  color: var(--grey);
+  color: lightgreen;
   text-decoration: none;
   padding: .5rem;
+}
+
+.content a {
+  /* color: lightgreen; */
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.content img {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .content img {
+    max-width: 60%;
+  }
+}
+
+.right {
+  float: right;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
+}
+
+.circle {
+  border-radius: 50%;
 }
