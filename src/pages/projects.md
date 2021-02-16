@@ -13,3 +13,5 @@ cards:
     items:
       - title: Concept
         url: /blog/self-watering-flower-pot-concept/
+      - title: Hardware
+        url: /blog/self-watering-flower-pot-hardware/
