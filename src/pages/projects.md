@@ -15,3 +15,6 @@ cards:
         url: /blog/self-watering-flower-pot-concept/
       - title: Hardware
         url: /blog/self-watering-flower-pot-hardware/
+      - title: Setup
+        url: /blog/self-watering-flower-pot-setup/
+---
