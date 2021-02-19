@@ -1,6 +1,7 @@
 ---
 title: Self Watering Flower Pot Hardware
 permalink: /blog/self-watering-flower-pot-hardware/
+date: 2021-02-16
 layout: base-layout.njk
 breadcrumbs:
   - label: Home

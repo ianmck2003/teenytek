@@ -1,6 +1,7 @@
 ---
 title: Self Watering Flower Pot Concept
 permalink: /blog/self-watering-flower-pot-concept/
+date: 2021-02-06
 layout: base-layout.njk
 breadcrumbs:
   - label: Home
