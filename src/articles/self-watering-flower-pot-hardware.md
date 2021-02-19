@@ -14,7 +14,9 @@ tags:
 
 # Self Watering Flower Pot Hardware
 
+<!-- Excerpt Start -->
 Following the recommended wiring diagram was farily easy requiring only a few rows on a breadboard. I decided to use two small breadboards to keep things organized, and I will be looking for ways to make things more compact as I go. The Wayintop kit you can buy on amazon comes with all the parts you need, but I did have to do some refinement to make them more usable. This is only an issue with the pumps, as the leads on them are extremely small and I don't want to risk damaging the waterproof coating on the wires since I have to submerge the pumps in the reservoir. To solve this problem, I spliced some red and black wire to the positive and negative poles respectively, giving me an extra 1 1/2 inches of wire to work with.
+<!-- Excerpt End -->
 
 ![soldered wires](/img/soldered-wires.jpeg)
 

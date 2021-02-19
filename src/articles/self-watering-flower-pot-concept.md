@@ -22,5 +22,3 @@ I will be using an Arduino Uno combined with the [WayinTop Automatic Irrigation 
 
 
 ![wiring diagram](/img/self-watering-flower-pot-array-schematic.png)
-
-
