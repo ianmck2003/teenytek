@@ -1,7 +1,7 @@
 ---
 title: Self Watering Flower Pot Programming
 permalink: /blog/self-watering-flower-pot-programming/
-date: 2021-02-21
+date: 2021-02-20
 layout: base-layout.njk
 breadcrumbs:
   - label: Home
