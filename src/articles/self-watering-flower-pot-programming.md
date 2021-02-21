@@ -30,17 +30,17 @@ The code used on the arduino is very simple and follows the following steps:
 
 
 Setup:
-  Set digital pins 2-5 as output pins
-  Set analog pins 0-3 as input pins
-  Set output of all digital pins to HIGH*
+  - Set digital pins 2-5 as output pins
+  - Set analog pins 0-3 as input pins
+  - Set output of all digital pins to HIGH*
 
 Loop:
-  Poll analog pins for sensor values
-  Print analog pin values to serial monitor
-  Repeat for all sensor values:
-    If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
-    If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)
-  Delay for 1000ms
+  1. Poll analog pins for sensor values
+  2. Print analog pin values to serial monitor
+  3. Repeat for all sensor values:
+    - If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
+    - If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)
+  4. Delay for 1000ms
 
 As of now, my code is using 4 individual floats to store each value, but I am planning to modify the program to store sensor data in an array to make it easier to extract data to a separate program or computer (such as a raspberry pi).
 

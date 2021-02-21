@@ -62,17 +62,21 @@
 300- = Swamp</p>
 <p>For clarification, the lower the value that the sensor returns, the more moisture that is present.</p>
 <p>The code used on the arduino is very simple and follows the following steps:</p>
-<p>Setup:
-Set digital pins 2-5 as output pins
-Set analog pins 0-3 as input pins
-Set output of all digital pins to HIGH*</p>
-<p>Loop:
-Poll analog pins for sensor values
-Print analog pin values to serial monitor
-Repeat for all sensor values:
-If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
-If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)
-Delay for 1000ms</p>
+<p>Setup:</p>
+<ul>
+<li>Set digital pins 2-5 as output pins</li>
+<li>Set analog pins 0-3 as input pins</li>
+<li>Set output of all digital pins to HIGH*</li>
+</ul>
+<p>Loop:</p>
+<ol>
+<li>Poll analog pins for sensor values</li>
+<li>Print analog pin values to serial monitor</li>
+<li>Repeat for all sensor values:
+- If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
+- If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)</li>
+<li>Delay for 1000ms</li>
+</ol>
 <p>As of now, my code is using 4 individual floats to store each value, but I am planning to modify the program to store sensor data in an array to make it easier to extract data to a separate program or computer (such as a raspberry pi).</p>
 <p>I also swapped out the Arduino Uno produced by Arduino with an Elektor Uno R4, which is essentially an Arduino Uno built around the ATmega328PB-au chip. I made this decision because the box of spare Arduino related parts and projects has several Elektor Uno R4s, so I wanted to keep the microcontrollers used on this project uniform so modifying/upgrading the system will be easier.</p>
 <p>Elektor Uno R4:</p>
