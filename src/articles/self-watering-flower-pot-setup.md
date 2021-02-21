@@ -1,6 +1,7 @@
 ---
 title: Self Watering Flower Pot Setup
 permalink: /blog/self-watering-flower-pot-setup/
+date: 2021-02-19
 layout: base-layout.njk
 breadcrumbs:
   - label: Home
