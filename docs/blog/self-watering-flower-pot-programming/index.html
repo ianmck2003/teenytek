@@ -1,0 +1,95 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
+    <title>Self Watering Flower Pot Programming</title>
+</head>
+<body>
+  
+
+<div class="site-container">
+    <div class="container">
+
+        <navbar>
+  <div class="navigation">
+    <div class="logo">
+      <a href="/"><img src="/img/teenytek-logo.png"></a>
+    </div>
+    <div class="menu">
+      <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="https://www.youtube.com/channel/UC3hkRnm-3sDoVO7Q52fDVAA">Videos</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+      </ul>
+      </ul>
+    </div>
+  </div>
+</navbar>
+
+        
+<div class="breadcrumbs">
+    
+    
+    
+        <a href="/">Home</a> &raquo;
+    
+    
+    
+        <a href="/blog/">Blog</a> &raquo;
+    
+    
+    
+        <span class="current">Self Watering Flower Pot Programming</span>
+    
+    
+</div>
+<div class="bottom-line"></div>
+
+        <div class="content">
+          <h1>Self Watering Flower Pot Programmming</h1>
+<!-- Excerpt Start -->
+<p>Programming the arduino to run the pumps and the sensors was very simple as the arduino has to only do two things: read the sensor input and turn the pumps on and off accordingly. In order to understand what sensors were returning, I added a set of code in the loop section to return the sensor reading from each pot. This also allowed me to fine tune the timing for when the pumps turn on to fall into the following ranges:</p>
+<!-- Excerpt End -->
+<p>450+ = Bone Dry
+450 - 400 = Water Soon
+400 - 300 = Ideal range
+300- = Swamp</p>
+<p>For clarification, the lower the value that the sensor returns, the more moisture that is present.</p>
+<p>The code used on the arduino is very simple and follows the following steps:</p>
+<p>Setup:
+Set digital pins 2-5 as output pins
+Set analog pins 0-3 as input pins
+Set output of all digital pins to HIGH*</p>
+<p>Loop:
+Poll analog pins for sensor values
+Print analog pin values to serial monitor
+Repeat for all sensor values:
+If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
+If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)
+Delay for 1000ms</p>
+<p>As of now, my code is using 4 individual floats to store each value, but I am planning to modify the program to store sensor data in an array to make it easier to extract data to a separate program or computer (such as a raspberry pi).</p>
+<p>I also swapped out the Arduino Uno produced by Arduino with an Elektor Uno R4, which is essentially an Arduino Uno built around the ATmega328PB-au chip. I made this decision because the box of spare Arduino related parts and projects has several Elektor Uno R4s, so I wanted to keep the microcontrollers used on this project uniform so modifying/upgrading the system will be easier.</p>
+<p>Elektor Uno R4:</p>
+<p><img src="/img/elektorlab-uno-r4.png" alt="Elektor Uno R4"></p>
+<p>Arduino Uno:</p>
+<p><img src="/img/arduino-uno.jpg" alt="Arduino Uno"></p>
+<p>*The 4 channel relay board used for this project is low input activated</p>
+
+        </div>
+        <footer>
+          <p>2020  TeenyTek</p>
+        </footer>
+    </div>
+</div>
+
+  
+    
+
+</body>
+</html>
