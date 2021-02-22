@@ -8,19 +8,21 @@ breadcrumbs:
   - label: Projects
 cards:
   - card:
-    title: Self Watering Flower Pot
+    title: Autonomous Flower Pot
     url: /projects/self-watering-flower-pot/
     items:
-      - title: Concept
+      - title: Self Watering Concept
         url: /blog/self-watering-flower-pot-concept/
-      - title: Hardware
+      - title: Self Watering Hardware
         url: /blog/self-watering-flower-pot-hardware/
-      - title: Setup
+      - title: Self Watering Setup
         url: /blog/self-watering-flower-pot-setup/
-      - title: Programming
+      - title: Self Watering Programming
         url: /blog/self-watering-flower-pot-programming/
-      - title: Debugging
+      - title: Self Watering Debugging
         url: /blog/self-watering-flower-pot-debugging/
+      - title: Data Hub Concept
+        url: /blog/flower-pot-data-hub-concept
   - card:
     title: Web Development
     url: /projects/web-development/
