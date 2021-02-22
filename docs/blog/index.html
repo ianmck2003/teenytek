@@ -52,6 +52,17 @@
 
     <article>
     <div class='article-header'>
+        <h2><a href="/blog/self-watering-flower-pot-debugging/">Self Watering Flower Pot Debugging</a></h2>
+        <time datetime="2021-02-21T00:00:00.000Z">February 21, 2021</time>
+    </div>
+    <div class="post-content">
+        The self watering flower pot program runs extremely well when plugged directly into an external computer. However, when a 9V power supply is plugged into the arduino, all four pumps will turn on at once. This is because the wiring diagram provided by WayinTop has a single error: The positive power jumper that is connected to the relay board should be plugged into the 5V power pin, and not the VIN power pin. The wiring diagram for the relay board and the arduino should look like this:
+        <p class="read-more-link"><a href="/blog/self-watering-flower-pot-debugging/">Read more...</a></p>
+    </div>
+    </article>
+    
+    <article>
+    <div class='article-header'>
         <h2><a href="/blog/self-watering-flower-pot-programming/">Self Watering Flower Pot Programming</a></h2>
         <time datetime="2021-02-20T00:00:00.000Z">February 20, 2021</time>
     </div>
