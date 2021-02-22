@@ -56,25 +56,30 @@
 <!-- Excerpt Start -->
 <p>Programming the arduino to run the pumps and the sensors was very simple as the arduino has to only do two things: read the sensor input and turn the pumps on and off accordingly. In order to understand what sensors were returning, I added a set of code in the loop section to return the sensor reading from each pot. This also allowed me to fine tune the timing for when the pumps turn on to fall into the following ranges:</p>
 <!-- Excerpt End -->
-<p>450+ = Bone Dry
-450 - 400 = Water Soon
-400 - 300 = Ideal range
-300- = Swamp</p>
+<ul style="list-style: none;">
+  <li>450+ = Bone Dry</li>
+  <li>450 - 400 = Water Soon</li>
+  <li>400 - 300 = Ideal range</li>
+  <li>300- = Swamp</li>
+</ul>
 <p>For clarification, the lower the value that the sensor returns, the more moisture that is present.</p>
 <p>The code used on the arduino is very simple and follows the following steps:</p>
 <p>Setup:</p>
 <ul>
 <li>Set digital pins 2-5 as output pins</li>
 <li>Set analog pins 0-3 as input pins</li>
-<li>Set output of all digital pins to HIGH*</li>
+<li>Set output of all digital pins to HIGH<a href="#fn1" id="fnote1"><sup>*</sup></a></li>
 </ul>
 <p>Loop:</p>
 <ol>
 <li>Poll analog pins for sensor values</li>
 <li>Print analog pin values to serial monitor</li>
 <li>Repeat for all sensor values:
-- If sensor value is above 375, turn pump associated with sensor on (set output to LOW)
-- If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)</li>
+<ul>
+<li>If sensor value is above 375, turn pump associated with sensor on (set output to LOW)</li>
+<li>If sensor value is less than 375, turn pump associated with sensor on (set output to HIGH)</li>
+</ul>
+</li>
 <li>Delay for 1000ms</li>
 </ol>
 <p>As of now, my code is using 4 individual floats to store each value, but I am planning to modify the program to store sensor data in an array to make it easier to extract data to a separate program or computer (such as a raspberry pi).</p>
@@ -83,7 +88,8 @@
 <p><img src="/img/elektorlab-uno-r4.png" alt="Elektor Uno R4"></p>
 <p>Arduino Uno:</p>
 <p><img src="/img/arduino-uno.jpg" alt="Arduino Uno"></p>
-<p>*The 4 channel relay board used for this project is low input activated</p>
+<hr style="width: 30rem; margin-top: 1rem; border: 1px solid var(--skyblue);">
+<p><sup id="fn1">*</sup> The 4 channel relay board used for this project is low input activated.<a href="#fnote1">↩</a></p>
 
         </div>
         <footer>
