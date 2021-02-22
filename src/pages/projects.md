@@ -19,4 +19,6 @@ cards:
         url: /blog/self-watering-flower-pot-setup/
       - title: Programming
         url: /blog/self-watering-flower-pot-programming/
+      - title: Debugging
+        url: /blog/self-watering-flower-pot-debugging/
 ---
