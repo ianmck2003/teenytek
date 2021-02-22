@@ -21,4 +21,10 @@ cards:
         url: /blog/self-watering-flower-pot-programming/
       - title: Debugging
         url: /blog/self-watering-flower-pot-debugging/
+  - card:
+    title: Web Development
+    url: /projects/web-development/
+    items:
+      - title: Making TeenyTek
+        url: /blog/making-teenytek/
 ---
