@@ -27,4 +27,10 @@ cards:
     items:
       - title: Making TeenyTek
         url: /blog/making-teenytek/
+  - card:
+    title: Minecraft Bots
+    url: /projects/minecraft-bots/
+    items:
+      - title: Fishing Bot Idea
+        url: /blog/afk-fishing-bot-idea/
 ---
