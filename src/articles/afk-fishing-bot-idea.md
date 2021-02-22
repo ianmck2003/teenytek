@@ -14,8 +14,9 @@ tags:
 ---
 
 # AFK Fishing Bot Idea
-
+<!-- Excerpt Start -->
 In Minecraft 1.16, the single block AFK fish farm design no longer produced treasure pulls, making it largely useless. Personally, I do not enjoy fishing in Minecraft because while it yields very useful treasure such as books of mending and high level protection, the time it takes for a rod to catch something is just too slow and boring for me. Even with the highest level of Lure I cannot Fish in Minecraft for more than 5 minutes before I get bored and decide to go do something else.
+<!-- Excerpt End -->
 
 Recently my father provided me a link to a very interesting Minecraft bot creater built around Node.js (the same framework used by the static site generator [Eleventy](/blog/making-teenytek/). I believe that I can build a bot that will not only fish for me while I'm away from my computer, but even while I'm working on other things while I'm at my computer. I could become the richest man on my dad's Minecraft server if I built this bot correctly, but it would have to have two settings with two different processes:
 

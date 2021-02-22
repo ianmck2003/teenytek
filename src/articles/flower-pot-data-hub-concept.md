@@ -14,9 +14,9 @@ tags:
 ---
 
 # Autonomous Flower Pot Data Hub Concept
-
+<!-- Excerpt Start -->
 With the completion of the self watering system for the flower pot, I realized a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.
-
+<!-- Excerpt End -->
 ## Goal
 
 The goal of upgrade to the Self Watering Flower Pot is to:

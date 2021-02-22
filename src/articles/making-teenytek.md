@@ -14,8 +14,9 @@ tags:
 ---
 
 # Making TeenyTek.com
-
+<!-- Excerpt Start -->
 TeenyTek.com was originally a learning project for me to learn how to use Eleventy and Node.js to maintain a much larger site built by me and my father, FarmerFrog.org. My father was the chief architect of the Farmer Frog Website, as the high school web development team did not have the knowledge or experience to rebuild the original site in the required timeframe. In order to compensate for the partial removal of the learning curve, my father recommended that my team and I build our own blog pages to practice using html, nunjucks, and css. The current iteration of the Farmer Frog website that we have been working on since September of 2020 uses so little javascript that we are not being required to use javascript, but I will most likely implement some javascript in the future since our client is already planning out features.
+<!-- Excerpt End -->
 
 Eleventy is a static site generator that takes layouts built in html and nunjucks and converts content in markdown files into html and creates pages in a distribution folder. It helps keeps things extremely simple and easy to use and maintain, and is very compact since individual layouts can cover the needs of most pages. For example, The TeenyTek Website is build largely around a singular base layout that puts in a header and a footer. There are only four unique layouts used on the entire website, as well as four partial layouts for the header and the footer.
 
