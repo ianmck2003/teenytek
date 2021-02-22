@@ -275,6 +275,20 @@ section .latest-posts .more-link a {
   border: 1px solid var(--skyblue);
 }
 
+section .news {
+  display: block;
+  color: var(--white);
+  border-radius: .5rem;
+  margin: .5rem;
+  border: 1px solid var(--skyblue);
+  padding: 0 1rem 1rem 1rem;
+}
+
+section .news a {
+  text-decoration: none;
+  color: var(--green);
+}
+
 footer {
   color: var(--white);
   background: var(--black);
@@ -303,7 +317,7 @@ footer {
 }
 
 .contact-content a {
-  color: lightgreen;
+  color: var(--green);
   text-decoration: none;
 }
 
@@ -443,14 +457,13 @@ footer {
 }
 
 .project-index-container .project-cards article ul a {
-  color: lightgreen;
+  color: var(--green);
   text-decoration: none;
   padding: .5rem;
 }
 
 .content a {
-  /* color: lightgreen; */
-  color: lightgreen;
+  color: var(--green);
   text-decoration: none;
 }
 
