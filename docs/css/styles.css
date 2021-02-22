@@ -289,6 +289,10 @@ section .news a {
   color: var(--green);
 }
 
+section .news a:hover {
+  color: lightgreen;
+}
+
 section .news img {
   display: block;
   margin: auto;
@@ -329,7 +333,7 @@ footer {
 }
 
 .contact-content a:hover {
-  color: var(--grey);
+  color: lightgreen;
 }
 
 .blog-index-container article {
@@ -469,9 +473,17 @@ footer {
   padding: .5rem;
 }
 
+.project-index-container .project-cards article ul a:hover {
+  color: lightgreen;
+}
+
 .content a {
   color: var(--green);
   text-decoration: none;
+}
+
+.content a:hover{
+  color: lightgreen;
 }
 
 .content img {
