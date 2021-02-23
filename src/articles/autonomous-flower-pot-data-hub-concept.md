@@ -1,7 +1,7 @@
 ---
 title: Autonomous Flower Pot Data Hub Concept
 permalink: /blog/autonomous-flower-pot-data-hub-concept/
-date: 2021-02-21
+date: 2021-02-22
 layout: base-layout.njk
 breadcrumbs:
   - label: Home
@@ -15,7 +15,7 @@ tags:
 
 # Autonomous Flower Pot Data Hub Concept
 <!-- Excerpt Start -->
-With the completion of the self watering system for the flower pot, I realized a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.
+With the completion of the self watering system for the flower pot, I discovered a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.
 <!-- Excerpt End -->
 ## Goal
 

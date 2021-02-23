@@ -52,23 +52,23 @@
 
     <article>
     <div class='article-header'>
+        <h2><a href="/blog/autonomous-flower-pot-data-hub-concept/">Autonomous Flower Pot Data Hub Concept</a></h2>
+        <time datetime="2021-02-22T00:00:00.000Z">February 22, 2021</time>
+    </div>
+    <div class="post-content">
+        <p>With the completion of the self watering system for the flower pot, I discovered a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.</p>
+        <p class="read-more-link"><a href="/blog/autonomous-flower-pot-data-hub-concept/">Read more...</a></p>
+    </div>
+    </article>
+    
+    <article>
+    <div class='article-header'>
         <h2><a href="/blog/self-watering-flower-pot-debugging/">Self Watering Flower Pot Debugging</a></h2>
         <time datetime="2021-02-21T00:00:00.000Z">February 21, 2021</time>
     </div>
     <div class="post-content">
         <p>The self watering flower pot program runs extremely well when plugged directly into an external computer. However, when a 9V power supply is plugged into the arduino, all four pumps will turn on at once. This is because the wiring diagram provided by WayinTop has a single error: The positive power jumper that is connected to the relay board should be plugged into the 5V power pin, and not the VIN power pin. The wiring diagram for the relay board and the arduino should look like this:</p>
         <p class="read-more-link"><a href="/blog/self-watering-flower-pot-debugging/">Read more...</a></p>
-    </div>
-    </article>
-    
-    <article>
-    <div class='article-header'>
-        <h2><a href="/blog/autonomous-flower-pot-data-hub-concept/">Autonomous Flower Pot Data Hub Concept</a></h2>
-        <time datetime="2021-02-21T00:00:00.000Z">February 21, 2021</time>
-    </div>
-    <div class="post-content">
-        <p>With the completion of the self watering system for the flower pot, I realized a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.</p>
-        <p class="read-more-link"><a href="/blog/autonomous-flower-pot-data-hub-concept/">Read more...</a></p>
     </div>
     </article>
     
