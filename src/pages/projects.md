@@ -22,7 +22,7 @@ cards:
       - title: Self Watering Debugging
         url: /blog/self-watering-flower-pot-debugging/
       - title: Data Hub Concept
-        url: /blog/flower-pot-data-hub-concept
+        url: /blog/autonomous-flower-pot-data-hub-concept/
   - card:
     title: Web Development
     url: /projects/web-development/
