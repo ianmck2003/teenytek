@@ -407,6 +407,10 @@ footer {
   text-decoration: none;
 }
 
+.page-nav ul li a:hover {
+  color: var(--grey);
+}
+
 .project-index-container {
   display: flex;
   flex-direction: column;
