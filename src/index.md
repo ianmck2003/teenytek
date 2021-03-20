@@ -5,6 +5,6 @@ layout: home-page-layout.njk
 
 # News
 
-Self Watering Flower Pot systems are active! Check out pages about it under the [Autonomous Flower Pot](/projects) Project.
+The Self Watering Flower Pots have been running for a month now! Check out how it was made in the [Autonomous Flower Pot](/projects) Project.
 
-![Self Watering System](img/finished-setup.jpeg)
+![Self Watering System](img/setup-march.jpeg)
