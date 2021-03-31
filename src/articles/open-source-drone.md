@@ -1,5 +1,5 @@
 ---
-title: Open Soure Drone
+title: Open Source Drone
 permalink: /blog/open-source-drone/
 date: 2021-03-25
 layout: base-layout.njk
