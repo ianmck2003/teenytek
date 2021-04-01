@@ -17,7 +17,7 @@ tags:
 
 ![Drone](/img/open-source-drone.jpeg)
 <!-- Excerpt Start -->
-I tried to build a drone, and ended up making an angry bee. When I spun up the motors for the first time it said, "5 more minutes" and threw its front right propeller at me.
+I tried to build a drone, and ended up making an angry bee. When I spun up the motors for the first time it said, "5 more minutes" and threw its front right propeller at me. I was perplexed as to how the drone got my sleeping habits. Like project like builder perhaps?
 <!-- Excerpt End -->
 I built an open source drone following instruction from Doctor Peter Dalmaris' Udemy course, Make an Open Source Drone. The course is very detailed, and I was able to build the drone in a very short amount of time. I followed the build instructions for the version based on a PixHawk 2.4.8 flight computer, and flying it has been highly enjoyable for me. Of all of the drones that I have flown, this one is the largest by a huge margin. It really allowed me to realize the extent of the inherent stability of larger aircraft, as I barely had to move the sticks to get a controllable response. I also realized that capacitors are a really useful thing to have, as the drone would not be able to fly if the voltage output from the battery dropped too low.
 
