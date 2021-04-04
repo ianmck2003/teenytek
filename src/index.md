@@ -5,6 +5,6 @@ layout: home-page-layout.njk
 
 # News
 
-The Self Watering Flower Pots have been running for a month now! Check out how it was made in the [Autonomous Flower Pot](/projects) Project.
+![drone](img/open-source-drone-vid-thumbnail1.png)
 
-![Self Watering System](img/setup-march.jpeg)
+Video about my open source drone has just been uploaded! Check it out [here](https://youtu.be/6oSdjpmIaDg)!
