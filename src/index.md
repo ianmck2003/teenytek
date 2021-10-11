@@ -5,6 +5,6 @@ layout: home-page-layout.njk
 
 # News
 
-![drone](img/open-source-drone-vid-thumbnail1.png)
+![drone](img/mask-print-img1.jpg)
 
-Video about my open source drone has just been uploaded! Check it out [here](https://youtu.be/6oSdjpmIaDg)!
+Making new and improved vented masks! Far better than anything the CDC and WHO has seen before!

@@ -35,4 +35,14 @@ cards:
     items:
       - title: Fishing Bot Idea
         url: /blog/afk-fishing-bot-idea/
+  - card:
+    title: 3D Printing
+    url: /projects/3D-printing/
+    items:
+      - title: New 3D printer
+        url: /blog/new-3d-printer/
+      - title: Battery Protectors
+        url: /blog/battery-protectors/
+      - title: 3D printed Mask
+        url: /blog/3d-printed-mask/
 ---
