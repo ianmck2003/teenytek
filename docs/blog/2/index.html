@@ -52,6 +52,39 @@
 
     <article>
     <div class='article-header'>
+        <h2><a href="/blog/autonomous-flower-pot-data-hub-concept/">Autonomous Flower Pot Data Hub Concept</a></h2>
+        <time datetime="2021-02-22T00:00:00.000Z">February 22, 2021</time>
+    </div>
+    <div class="post-content">
+        <p>With the completion of the self watering system for the flower pot, I discovered a serious flaw with my system. In order to get data from my Arduino Uno, I had to directly connect a laptop to the Arduino. However, even with the direct connection I couldn't see data over time, resulting in me only getting a real time idea of how the moisture levels are doing. After consulting the resources that I have, I decided that I should find a way to have the Arduino pass its information to a Raspberry Pi, which will then allow me to remotely connect via wifi to a web server to see the sensor data in real time, as well as sensor data in the past on a graph.</p>
+        <p class="read-more-link"><a href="/blog/autonomous-flower-pot-data-hub-concept/">Read more...</a></p>
+    </div>
+    </article>
+    
+    <article>
+    <div class='article-header'>
+        <h2><a href="/blog/self-watering-flower-pot-debugging/">Self Watering Flower Pot Debugging</a></h2>
+        <time datetime="2021-02-21T00:00:00.000Z">February 21, 2021</time>
+    </div>
+    <div class="post-content">
+        <p>The self watering flower pot program runs extremely well when plugged directly into an external computer. However, when a 9V power supply is plugged into the arduino, all four pumps will turn on at once. This is because the wiring diagram provided by WayinTop has a single error: The positive power jumper that is connected to the relay board should be plugged into the 5V power pin, and not the VIN power pin. The wiring diagram for the relay board and the arduino should look like this:</p>
+        <p class="read-more-link"><a href="/blog/self-watering-flower-pot-debugging/">Read more...</a></p>
+    </div>
+    </article>
+    
+    <article>
+    <div class='article-header'>
+        <h2><a href="/blog/afk-fishing-bot-idea/">AFK Fishing Bot Idea</a></h2>
+        <time datetime="2021-02-21T00:00:00.000Z">February 21, 2021</time>
+    </div>
+    <div class="post-content">
+        <p>In Minecraft 1.16, the single block AFK fish farm design no longer produced treasure pulls, making it largely useless. Personally, I do not enjoy fishing in Minecraft because while it yields very useful treasure such as books of mending and high level protection, the time it takes for a rod to catch something is just too slow and boring for me. Even with the highest level of Lure I cannot Fish in Minecraft for more than 5 minutes before I get bored and decide to go do something else.</p>
+        <p class="read-more-link"><a href="/blog/afk-fishing-bot-idea/">Read more...</a></p>
+    </div>
+    </article>
+    
+    <article>
+    <div class='article-header'>
         <h2><a href="/blog/self-watering-flower-pot-programming/">Self Watering Flower Pot Programming</a></h2>
         <time datetime="2021-02-20T00:00:00.000Z">February 20, 2021</time>
     </div>
@@ -72,51 +105,18 @@
     </div>
     </article>
     
-    <article>
-    <div class='article-header'>
-        <h2><a href="/blog/self-watering-flower-pot-hardware/">Self Watering Flower Pot Hardware</a></h2>
-        <time datetime="2021-02-16T00:00:00.000Z">February 16, 2021</time>
-    </div>
-    <div class="post-content">
-        <p>Following the recommended wiring diagram was farily easy requiring only a few rows on a breadboard. I decided to use two small breadboards to keep things organized, and I will be looking for ways to make things more compact as I go. The Wayintop kit you can buy on amazon comes with all the parts you need, but I did have to do some refinement to make them more usable. This is only an issue with the pumps, as the leads on them are extremely small and I don't want to risk damaging the waterproof coating on the wires since I have to submerge the pumps in the reservoir. To solve this problem, I spliced some red and black wire to the positive and negative poles respectively, giving me an extra 1 1/2 inches of wire to work with.</p>
-        <p class="read-more-link"><a href="/blog/self-watering-flower-pot-hardware/">Read more...</a></p>
-    </div>
-    </article>
-    
-    <article>
-    <div class='article-header'>
-        <h2><a href="/blog/self-watering-flower-pot-concept/">Self Watering Flower Pot Concept</a></h2>
-        <time datetime="2021-02-06T00:00:00.000Z">February 6, 2021</time>
-    </div>
-    <div class="post-content">
-        <p>The idea is to create a self watering flower pot using an arduino, a moisture sensor, and a pump in a water bucket. The arduino will take the data input from the sensor and determine if the soil is too dry. If the soil is too dry, it will activate a pump and run until the soil is moist enough. It will then stop the pump while the arduino waits a set amount of time before priming the system again.</p>
-        <p class="read-more-link"><a href="/blog/self-watering-flower-pot-concept/">Read more...</a></p>
-    </div>
-    </article>
-    
-    <article>
-    <div class='article-header'>
-        <h2><a href="/blog/making-teenytek/">Making Teenytek.com</a></h2>
-        <time datetime="2021-02-05T00:00:00.000Z">February 5, 2021</time>
-    </div>
-    <div class="post-content">
-        <p>TeenyTek.com was originally a learning project for me to learn how to use Eleventy and Node.js to maintain a much larger site built by me and my father, FarmerFrog.org. My father was the chief architect of the Farmer Frog Website, as the high school web development team did not have the knowledge or experience to rebuild the original site in the required timeframe. In order to compensate for the partial removal of the learning curve, my father recommended that my team and I build our own blog pages to practice using html, nunjucks, and css. The current iteration of the Farmer Frog website that we have been working on since September of 2020 uses so little javascript that we are not being required to use javascript, but I will most likely implement some javascript in the future since our client is already planning out features.</p>
-        <p class="read-more-link"><a href="/blog/making-teenytek/">Read more...</a></p>
-    </div>
-    </article>
-    
   
     <div class="page-nav center-div">
         <ul>
             <li><a href="/blog/">Previous</a></li>
 
-            <li>Next</li>
+            <li><a href="/blog/3/">Next</a></li>
         </ul>
     </div>
 </div>
         </div>
         <footer>
-          <p>2020  TeenyTek</p>
+          <p>2021  TeenyTek</p>
         </footer>
     </div>
 </div>
