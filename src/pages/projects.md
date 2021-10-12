@@ -37,7 +37,7 @@ cards:
         url: /blog/afk-fishing-bot-idea/
   - card:
     title: 3D Printing
-    url: /projects/3D-printing/
+    url: /projects/3d-printing/
     items:
       - title: New 3D printer
         url: /blog/new-3d-printer/
@@ -45,4 +45,10 @@ cards:
         url: /blog/battery-protectors/
       - title: 3D printed Mask
         url: /blog/3d-printed-mask/
+  - card:
+    title: 3D Printed Mask
+    url: /projects/3d-printed-mask
+    items:
+      - title: The COVID Hunter Mask
+        url: /blog/the-covid-hunter-mask/
 ---
